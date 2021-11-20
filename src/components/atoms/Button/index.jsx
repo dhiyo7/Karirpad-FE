@@ -11,9 +11,9 @@ const Button = (props) => {
           : variant === "dark"
           ? "bg-gray-500 hover:bg-gray-600"
           : variant === "solusi1"
-          ? "bg-yellow-800 hover:bg-yellow-900"
+          ? "bg-yellow-500 hover:bg-yellow-600"
           : variant === "solusi2"
-          ? "bg-green-600 hover:bg-green-700"
+          ? "bg-green-500 hover:bg-green-600"
           : "bg-red-400 hover:bg-red-500"
       } ${
         textStyle === "white" ? "text-white" : "text-black"
