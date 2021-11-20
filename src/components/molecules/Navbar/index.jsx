@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Image } from "components";
+import { Button, Image } from "../../atoms";
 import logo from "../../../assets/logo-ciayoo.png";
 const Navbar = () => {
   return (

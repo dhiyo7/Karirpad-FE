@@ -1,5 +1,5 @@
 import React from "react";
-import { Text } from "components";
+import { Text } from "../../atoms";
 
 const TypeLoker = () => {
   return (

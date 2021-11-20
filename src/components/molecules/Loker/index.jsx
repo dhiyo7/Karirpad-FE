@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, Button } from "components";
+import { Text, Button } from "../../atoms";
 
 const Loker = () => {
   return (

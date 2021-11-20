@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, Image } from "components";
+import { Text, Image } from "../../atoms";
 
 const Kriteria = () => {
   return (

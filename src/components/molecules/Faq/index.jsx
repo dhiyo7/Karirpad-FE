@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, Image, Button } from "components";
+import { Text, Image, Button } from "../../atoms";
 
 import ats from "../../../assets/logo-ats-trans.png";
 import rms from "../../../assets/logo-rms-trans.png";
