@@ -1,11 +1,12 @@
 import React from "react";
-import { Navbar, Banner } from "../../components/molecules";
+import { Navbar, Banner, Loker } from "../../components/molecules";
 
 const Home = () => {
   return (
     <>
       <Navbar />
       <Banner />
+      <Loker/>
     </>
   );
 };

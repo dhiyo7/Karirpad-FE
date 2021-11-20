@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, Button } from "../../atoms";
+import { Text, Button } from "components";
 
 const Banner = () => {
   return (
@@ -38,9 +38,18 @@ const Banner = () => {
               </Button>
             </div>
             <div className="w-full flex justify-center items-center">
-            <Text variant={'subtitle'} bold={false} ownStyle={'mt-6 mr-2'}>{"Tersedia ribuan lowongan pekerjaan untuk Kamu saat ini. Lihat lowongan "}</Text>
-            <Text variant={'subtitle'} bold={true} ownStyle={'mt-6 text-yellow-500	hover:text-yellow-600'}>{"di sini"}</Text>
-
+              <Text variant={"subtitle"} bold={false} ownStyle={"mt-6 mr-2"}>
+                {
+                  "Tersedia ribuan lowongan pekerjaan untuk Kamu saat ini. Lihat lowongan "
+                }
+              </Text>
+              <Text
+                variant={"subtitle"}
+                bold={true}
+                ownStyle={"mt-6 text-yellow-500	hover:text-yellow-600"}
+              >
+                {"di sini"}
+              </Text>
             </div>
           </div>
         </div>

@@ -6,7 +6,6 @@
 import React from "react";
 
 const Text = (props) => {
-  console.log("A ", props);
   const { variant, bold, ownStyle, hover, children } = props;
 
   return (
