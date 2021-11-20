@@ -3,7 +3,7 @@ import { Text, Button } from "components";
 
 const Loker = () => {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="bg-gray-100 text-gray-600 body-font">
       <div className="px-20 py-24 mx-auto">
         <Text
           ownStyle={"text-center text-gray-600 text-3xl mb-2"}
