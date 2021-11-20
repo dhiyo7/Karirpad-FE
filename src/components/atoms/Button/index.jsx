@@ -7,14 +7,14 @@ const Button = (props) => {
     <button
       className={`${
         variant === "primary"
-          ? "bg-blue-500 hover:bg-blue-600"
+          ? "bg-blue-400 hover:bg-blue-500"
           : variant === "dark"
           ? "bg-gray-500 hover:bg-gray-600"
           : variant === "solusi1"
           ? "bg-yellow-800 hover:bg-yellow-900"
           : variant === "solusi2"
           ? "bg-green-600 hover:bg-green-700"
-          : null
+          : "bg-red-400 hover:bg-red-500"
       } ${
         textStyle === "white" ? "text-white" : "text-black"
       } ${ownStyle} ${rounded}`}

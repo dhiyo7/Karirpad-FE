@@ -1,11 +1,29 @@
-import React from 'react'
+//  variant = title, subtitle, content
+// bold = boolean,
+// hover= hover style
+// ownStyle= custom style
 
-const Text = () => {
-    return (
-        <div>
-            cekkkk
-        </div>
-    )
-}
+import React from "react";
 
-export default Text
+const Text = (props) => {
+  console.log("A ", props);
+  const { variant, bold, ownStyle, hover, children } = props;
+
+  return (
+    <p
+      className={`${
+        variant === "title"
+          ? "text-lg"
+          : variant === "subtitle"
+          ? "text-base"
+          : "text-sm"
+      } ${
+        bold === true ? "font-bold" : "font-normal"
+      } ${hover} ${ownStyle}`}
+    >
+      {children}
+    </p>
+  );
+};
+
+export default Text;

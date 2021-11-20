@@ -1,4 +1,18 @@
 /* ./src/index.css */
 @tailwind base;
 @tailwind components;
+@font-face {
+    font-family: 'Poppins-Medium';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url('../src/assets/font/Poppins-Medium.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'Poppins-Reguler';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url('../src/assets/font/Poppins-Regular.ttf')  format('truetype');
+}
 @tailwind utilities;
