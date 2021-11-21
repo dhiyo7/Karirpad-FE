@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Banner, Loker, TypeLoker, Kriteria, Faq } from "../../components/molecules";
+import { Navbar, Banner, Loker, TypeLoker, Kriteria, Faq, Footer } from "../../components/molecules";
 
 const Home = () => {
   return (
@@ -10,6 +10,7 @@ const Home = () => {
       <TypeLoker/>
       <Kriteria/>
       <Faq/>
+      <Footer/>
     </>
   );
 };

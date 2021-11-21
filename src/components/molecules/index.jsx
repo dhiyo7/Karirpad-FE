@@ -4,5 +4,6 @@ import Loker from "./Loker";
 import TypeLoker from "./TipeLoker";
 import Kriteria from "./Kriteria";
 import Faq from "./Faq";
+import Footer from "./Footer";
 
-export { Navbar, Banner, Loker, TypeLoker, Kriteria, Faq };
+export { Navbar, Banner, Loker, TypeLoker, Kriteria, Faq, Footer };
