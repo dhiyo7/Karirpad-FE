@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, Image, Button } from "../../atoms";
+import { Text} from "../../atoms";
 
 const Footer = () => {
   return (
